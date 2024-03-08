@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find f1tenth_simulator)/launch/simulator.launch"/>
+    <node pkg="wyx_pid" name="wall_follower" type="wall_follower"/>
+</launch>

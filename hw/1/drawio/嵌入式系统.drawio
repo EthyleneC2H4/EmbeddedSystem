@@ -1,0 +1,67 @@
+<mxfile host="Electron" modified="2023-09-21T03:46:31.965Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="_rng8l3ObdHo8ecD2SWv" version="21.7.5" type="device">
+  <diagram name="Page-1" id="2s180VhEp9aJes2Rt2GD">
+    <mxGraphModel dx="1114" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cT2jeBKA4fGHNxddCgqp-3" value="&lt;h2&gt;嵌入式系统&lt;/h2&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="cT2jeBKA4fGHNxddCgqp-7" value="防强光模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="360" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cT2jeBKA4fGHNxddCgqp-8" value="防雾模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cT2jeBKA4fGHNxddCgqp-9" value="时间显示模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cT2jeBKA4fGHNxddCgqp-16" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="cT2jeBKA4fGHNxddCgqp-9">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="320" y="225" as="sourcePoint" />
+            <mxPoint x="500" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cT2jeBKA4fGHNxddCgqp-18" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="320" y="304.5" as="sourcePoint" />
+            <mxPoint x="200" y="304.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cT2jeBKA4fGHNxddCgqp-20" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="320" y="384.5" as="sourcePoint" />
+            <mxPoint x="200" y="384.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cT2jeBKA4fGHNxddCgqp-24" value="光传感器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cT2jeBKA4fGHNxddCgqp-25" value="温度传感器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="210" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cT2jeBKA4fGHNxddCgqp-26" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="650" y="234.5" as="sourcePoint" />
+            <mxPoint x="530" y="234.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cT2jeBKA4fGHNxddCgqp-27" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="650" y="304.5" as="sourcePoint" />
+            <mxPoint x="530" y="304.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cT2jeBKA4fGHNxddCgqp-28" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="650" y="384.5" as="sourcePoint" />
+            <mxPoint x="530" y="384.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cT2jeBKA4fGHNxddCgqp-29" value="时间控制系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="360" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

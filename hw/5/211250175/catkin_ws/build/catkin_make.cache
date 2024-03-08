@@ -1,0 +1,2 @@
+f1tenth_simulator:my_turtle_package:wyx_aeb
+-DCATKIN_DEVEL_PREFIX=/home/ethylene/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ethylene/catkin_ws/install -G Unix Makefiles

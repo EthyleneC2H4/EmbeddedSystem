@@ -1,0 +1,46 @@
+<mxfile host="Electron" modified="2023-09-21T03:38:48.800Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="HIxePUIxfExUBgXgJkjL" version="21.7.5" type="device">
+  <diagram name="Page-1" id="F2-cdWxEglG9kZVOg9OO">
+    <mxGraphModel dx="1114" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="seNRyz7nqzE0H_v_xSvr-1" value="&lt;h1&gt;软硬件系统&lt;/h1&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="seNRyz7nqzE0H_v_xSvr-2" value="时间显示模块" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="seNRyz7nqzE0H_v_xSvr-3" value="防强光模块" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="800" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="seNRyz7nqzE0H_v_xSvr-4" value="防雾模块" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="520" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="seNRyz7nqzE0H_v_xSvr-8" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seNRyz7nqzE0H_v_xSvr-10" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="320" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seNRyz7nqzE0H_v_xSvr-11" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="seNRyz7nqzE0H_v_xSvr-12" value="智能镜片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="510" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="seNRyz7nqzE0H_v_xSvr-13" value="智能镜片" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="715" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="seNRyz7nqzE0H_v_xSvr-14" value="温度传感器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="510" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="seNRyz7nqzE0H_v_xSvr-15" value="光传感器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="715" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="seNRyz7nqzE0H_v_xSvr-16" value="温度控制镜框" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="620" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

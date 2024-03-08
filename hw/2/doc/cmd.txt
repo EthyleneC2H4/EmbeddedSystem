@@ -1,0 +1,66 @@
+sudo sh -c '. /etc/lsb-release && echo "deb http://mirrors.ustc.edu.cn/ros/ubuntu/ $DISTRIB_CODENAME main" > /etc/apt/sources.list.d/ros-latest.list'
+
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F42ED6FBAB17C654
+
+sudo apt-get update
+sudo apt-get install ros-melodic-desktop-full
+sudo apt-get install ros-melodic-rqt*
+
+
+sudo rosdep init
+rosdep update
+
+sudo apt-get install python-rosinstall
+
+source /opt/ros/melodic/setup.bash
+
+
+sudo mkdir -p /etc/ros/rosdep/sources.list.d 
+cd /etc/ros/rosdep/sources.list.d
+sudo gedit 20-default.list
+#os-specific listings first
+yaml file:///home/ethylene/ES/rosdistro/rosdep/osx-homebrew.yaml osx
+#generic
+yaml file:///home/ethylene/ES/rosdistro/rosdep/base.yaml
+yaml file:///home/ethylene/ES/rosdistro/rosdep/python.yaml
+yaml file:///home/ethylene/ES/rosdistro/rosdep/ruby.yaml
+gbpdistro file:///home/ethylene/ES/rosdistro/releases/fuerte.yaml fuerte
+#newer distributions (Groovy, Hydro, ...) must not be listed anymore, they are being fetched from the rosdistro index.yaml instead
+
+
+
+cd /usr/lib/python3/dist-packages/rosdep2/
+sudo gedit gbpdistro_support.py
+
+# 修改为如下内容
+FUERTE_GBPDISTRO_URL = 'file:///home/ethylene/ES/rosdistro/releases/fuerte.yaml'
+
+
+cd /usr/lib/python3/dist-packages/rosdep2/
+sudo gedit rep3.py
+
+# 修改为如下内容
+REP3_TARGETS_URL = 'file:///home/ethylene/ES/rosdistro/releases/targets.yaml'
+
+
+cd /usr/lib/python3/dist-packages/rosdistro/
+sudo gedit __init__.py
+
+# 修改为如下内容
+DEFAULT_INDEX_URL = 'file:///home/ethylene/ES/rosdistro/index-v4.yaml'
+
+
+
+sudo mkdir -p /etc/ros/rosdep/sources.list.d 
+cd /etc/ros/rosdep/sources.list.d
+sudo gedit 20-default.list
+
+# 在文件中添加如下内容
+#os-specific listings first
+yaml file:///home/ethylene/ES/rosdistro/rosdep/osx-homebrew.yaml osx
+#generic
+yaml file:///home/ethylene/ES/rosdistro/rosdep/base.yaml
+yaml file:///home/ethylene/ES/rosdistro/rosdep/python.yaml
+yaml file:///home/ethylene/ES/rosdistro/rosdep/ruby.yaml
+gbpdistro file:///home/ethylene/ES/rosdistro/releases/fuerte.yaml fuerte
+#newer distributions (Groovy, Hydro, ...) must not be listed anymore, they are being fetched from the rosdistro index.yaml instead

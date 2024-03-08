@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2023-09-21T03:28:07.332Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="JP8AX2--iWgyGSitJ5VT" version="21.7.5" type="device">
+  <diagram name="Page-1" id="VY0iuT0pwb8QjLV0NA0N">
+    <mxGraphModel dx="954" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-1" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=19.72;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-3" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=19.72;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-4" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=19.72;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-5" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=19.72;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-6" value="&lt;h2&gt;应用层&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="135" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-7" value="&lt;h2&gt;中间层&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-8" value="&lt;h2&gt;硬件抽象层&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="335" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-9" value="&lt;h2&gt;硬件层&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="435" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-10" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="170" y="105" width="250" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="250" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="300" width="250" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="250" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-14" value="&lt;h3&gt;1. 时间显示&lt;br&gt;2. 防雾&lt;br&gt;3. 防强光&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="117.5" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-15" value="&lt;h3&gt;1. 时间同步&lt;br&gt;2. 数据存储&lt;br&gt;3. 数据分析&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="212.5" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-16" value="&lt;h3&gt;1. 系统库函数&lt;br&gt;2. 系统数据读写&lt;br&gt;3. 智能镜片控制&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="312.5" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gu4G6PsnwvMq6n6cc7N0-17" value="&lt;h3&gt;1. 芯片&lt;br&gt;2. 传感器&lt;br&gt;3. 智能镜片&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="412.5" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
